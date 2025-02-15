@@ -1,0 +1,891 @@
+#Version: 0x030217
+#Access: 0
+#Pos: 0,0
+#Size: 1203,585
+#BkColor: 230,245,247
+#Gates: 22
+  #DIG: 1,0
+  #DIG: 1,1
+  #DIG: 1,2
+  #NUM: 1,1
+  #NUM: 1,0
+  #DIG: 1,3
+  #DIG: 1,4
+  #EVN: C1_on,3
+  #EVN: C2_on,4
+  #DIG: 1,5
+  #DIG: 1,6
+  #DIG: 1,7
+  #DIG: 1,8
+  #DIG: 1,9
+  #DIG: 1,10
+  #DIG: 1,11
+  #DIG: 1,12
+  #DIG: 1,13
+  #DIG: 1,14
+  #DIG: 1,15
+  #DIG: 1,16
+  #DIG: 1,17
+#Style: Standard
+#StayOnTop: 0
+#Object: Led
+  #ID: 0
+  #Pos: 395,265
+  #Size: 17,17
+  #Cursor: 0
+  #OffBmpRes: 31
+  #OnBmpRes: 11
+  #BmpBkC: 0,128,128
+  #On: 0,6,1
+  #Flashing: 0
+  #Access: 0
+#EndObj
+#Object: Led
+  #ID: 0
+  #Pos: 480,265
+  #Size: 17,17
+  #Cursor: 0
+  #OffBmpRes: 31
+  #OnBmpRes: 01
+  #BmpBkC: 0,128,128
+  #On: 1,6,1
+  #Flashing: 0
+  #Access: 0
+#EndObj
+#Object: Led
+  #ID: 0
+  #Pos: 565,265
+  #Size: 17,17
+  #Cursor: 0
+  #OffBmpRes: 31
+  #OnBmpRes: 01
+  #BmpBkC: 0,128,128
+  #On: 2,6,1
+  #Flashing: 0
+  #Access: 0
+#EndObj
+#Object: Led
+  #ID: 0
+  #Pos: 450,300
+  #Size: 17,17
+  #Cursor: 0
+  #OffBmpRes: 31
+  #OnBmpRes: 11
+  #BmpBkC: 0,128,128
+  #On: 0,6,1
+  #Flashing: 0
+  #Access: 0
+#EndObj
+#Object: Frame
+  #ID: 0
+  #Pos: 0,65
+  #Size: 1190,505
+  #BkColor: clBtnFace
+  #Style: 2
+  #TabOrder: 1
+  #Access: 0
+  #NewOnClick: Apply
+  #Object: TabSheet
+    #ID: 0
+    #Pos: 1,9
+    #Size: 1185,490
+    #TabOrder: 0
+    #Object: TabPage
+      #ID: 0
+      #Label: Cell1
+      #Object: GroupBox
+        #ID: 0
+        #Pos: 6,24
+        #Size: 1170,460
+        #BkColor: clBtnFace
+        #TxtColor: clWindowText
+        #Font: Segoe UI,9,0000
+        #Align: 0
+        #TabOrder: 0
+        #Object: Led
+          #ID: 0
+          #Pos: 110,160
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 9,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 110,195
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 10,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 110,230
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 11,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 1075,160
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 12,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 1075,195
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 13,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 1075,230
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 14,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 555,140
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0002,0002
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 100,295
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0001,0001
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 1060,295
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0004,0004
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 70,90
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 15,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 1025,90
+          #Size: 22,22
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 16,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 265,40
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0008,0008
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 265,90
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0010,0010
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 265,140
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0020,0020
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 880,40
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0040,0040
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 880,90
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0080,0080
+          #Access: 0
+        #EndObj
+        #Object: Switch
+          #ID: 0
+          #Pos: 880,140
+          #Size: 32,32
+          #TransparentColor: 0,128,128
+          #Cursor: 0
+          #BmpRes: 1
+          #NeedApply: 0
+          #Mode: 1
+          #OnMask: 3,0100,0100
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 375,410
+          #Size: 17,17
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 17,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 470,410
+          #Size: 17,17
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 18,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 565,410
+          #Size: 17,17
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 19,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 660,410
+          #Size: 17,17
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 20,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Led
+          #ID: 0
+          #Pos: 755,410
+          #Size: 17,17
+          #Cursor: 0
+          #OffBmpRes: 01
+          #OnBmpRes: 11
+          #BmpBkC: 0,128,128
+          #On: 21,6,1
+          #Flashing: 0
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 65,15
+          #Size: 85,27
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,12,0001
+          #Label: Cell1_Mtop
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 530,20
+          #Size: 85,27
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,12,0001
+          #Label: Cell1_Cmid
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1030,15
+          #Size: 85,27
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,12,0001
+          #Label: Cell1_Mbot
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 60,135
+          #Size: 85,22
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,10,0000
+          #Label: Tool:
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1025,135
+          #Size: 85,22
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,10,0000
+          #Label: Tool:
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 75,160
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 1
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 75,195
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 2
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 75,230
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 3
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1040,160
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 1
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1040,195
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 2
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1040,230
+          #Size: 30,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,11,0001
+          #Label: 3
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 55,270
+          #Size: 130,22
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,10,0000
+          #Label: STOP CONVEYOR
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 505,110
+          #Size: 130,27
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,10,0000
+          #Label: STOP CONVEYOR
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1010,270
+          #Size: 130,22
+          #BkColor: clMenu
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI Semibold,10,0000
+          #Label: STOP CONVEYOR
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 450,345
+          #Size: 65,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Conveyor2
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Bitmap
+          #ID: 0
+          #Pos: 440,370
+          #Size: 82,41
+          #Descr: conveyor1
+          #Cursor: 0
+          #PBmpFile: 0,conveyor_red.png
+          #PBmpFile: 1,conveyor_grey.bmp
+          #PBmpFile: 2,conveyor_green.bmp
+          #TabOrder: 0
+          #Status: 0,3,13,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1
+          #Status: 1,1,6,0
+          #Status: 2,1,6,1
+          #CycleTime: 0,0
+          #CycleTime: 1,0
+          #CycleTime: 2,0
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 545,345
+          #Size: 65,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Conveyor3
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Bitmap
+          #ID: 0
+          #Pos: 535,370
+          #Size: 82,41
+          #Descr: conveyor2
+          #Cursor: 0
+          #PBmpFile: 0,conveyor_red.png
+          #PBmpFile: 1,conveyor_grey.bmp
+          #PBmpFile: 2,conveyor_green.bmp
+          #TabOrder: 1
+          #Status: 0,3,13,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1X
+          #Status: 1,2,6,0
+          #Status: 2,2,6,1
+          #CycleTime: 0,0
+          #CycleTime: 1,0
+          #CycleTime: 2,0
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 640,345
+          #Size: 65,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Conveyor4
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Bitmap
+          #ID: 0
+          #Pos: 630,370
+          #Size: 82,41
+          #Descr: conveyor3
+          #Cursor: 0
+          #PBmpFile: 0,conveyor_red.png
+          #PBmpFile: 1,conveyor_grey.bmp
+          #PBmpFile: 2,conveyor_green.bmp
+          #TabOrder: 2
+          #Status: 0,3,13,XXXXXXXXXXXXXXXXXXXXXXXXXXXXX1XX
+          #Status: 1,5,6,0
+          #Status: 2,5,6,1
+          #CycleTime: 0,0
+          #CycleTime: 1,0
+          #CycleTime: 2,0
+          #Access: 0
+        #EndObj
+        #Object: Bitmap
+          #ID: 0
+          #Pos: 725,370
+          #Size: 82,41
+          #Descr: conveyor3
+          #Cursor: 0
+          #PBmpFile: 0,conveyor_grey.bmp
+          #PBmpFile: 1,conveyor_green.bmp
+          #TabOrder: 3
+          #Status: 0,6,6,0
+          #Status: 1,6,6,1
+          #CycleTime: 0,0
+          #CycleTime: 1,0
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 735,345
+          #Size: 65,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Conveyor5
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 355,345
+          #Size: 65,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Conveyor1
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Bitmap
+          #ID: 0
+          #Pos: 345,370
+          #Size: 82,41
+          #Descr: conveyor3
+          #Cursor: 0
+          #PBmpFile: 0,conveyor_grey.bmp
+          #PBmpFile: 1,conveyor_green.bmp
+          #TabOrder: 4
+          #Status: 0,0,6,0
+          #Status: 1,0,6,1
+          #CycleTime: 0,0
+          #CycleTime: 1,0
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 100,95
+          #Size: 60,22
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Operating
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 50,60
+          #Size: 115,22
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,10,0000
+          #Label: Machine Status:
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1005,60
+          #Size: 115,22
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,10,0000
+          #Label: Machine Status:
+          #Align: 33
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 1055,95
+          #Size: 60,22
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Operating
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 195,50
+          #Size: 70,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Automatic
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 205,100
+          #Size: 50,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Manual
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 190,145
+          #Size: 75,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Maintenance
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 925,45
+          #Size: 70,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Automatic
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 925,95
+          #Size: 50,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Manual
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+        #Object: Label
+          #ID: 0
+          #Pos: 920,145
+          #Size: 75,17
+          #BkColor: clBtnFace
+          #Cursor: 0
+          #TxtColor: clWindowText
+          #Font: Segoe UI,9,0000
+          #Label: Maintenance
+          #Align: 32
+          #Frame: 1
+          #Access: 0
+        #EndObj
+      #EndObj
+    #EndObj
+  #EndObj
+#EndObj
+#Object: Frame
+  #ID: 0
+  #Pos: -5,-5
+  #Size: 1195,75
+  #BkColor: 47,118,198
+  #Style: 2
+  #TabOrder: 0
+  #Access: 0
+  #Object: Label
+    #ID: 0
+    #Pos: 20,15
+    #Size: 350,42
+    #BkColor: 47,118,198
+    #Cursor: 0
+    #TxtColor: clWindow
+    #Font: Siemens Sans,24,0001
+    #Label: Shoop Floor Simulator
+    #Align: 36
+    #Frame: 1
+    #Access: 0
+  #EndObj
+  #Object: Button
+    #ID: 0
+    #Pos: 890,30
+    #Size: 75,25
+    #Cursor: 0
+    #Label: Alarms
+    #Font: Segoe UI,9,0000
+    #FunctionKey: -1
+    #TabOrder: 0
+    #Access: 0
+    #OnClick: Template,Alarms_view
+  #EndObj
+  #Object: Button
+    #ID: 0
+    #Pos: 980,30
+    #Size: 75,25
+    #Cursor: 0
+    #Label: Events
+    #Font: Segoe UI,9,0000
+    #FunctionKey: -1
+    #TabOrder: 1
+    #Access: 0
+    #OnClick: Template,Events_view
+  #EndObj
+  #Object: Button
+    #ID: 0
+    #Pos: 1070,30
+    #Size: 85,25
+    #Cursor: 0
+    #Label: Historical view
+    #Font: Segoe UI,9,0000
+    #FunctionKey: -1
+    #TabOrder: 2
+    #Access: 0
+    #OnClick: Template,Historical_view
+  #EndObj
+#EndObj

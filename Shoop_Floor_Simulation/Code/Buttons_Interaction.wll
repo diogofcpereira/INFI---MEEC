@@ -1,0 +1,20 @@
+Function Void stop_conveyor_Mtop()
+    int currentState;
+    currentState = GetNumGateValue("1", 1);
+    currentState = BitXor(currentState, 1);
+    SetNumGateValue("1", 1, currentState);
+End
+
+Function Void stop_conveyor_Cmid()
+    int currentState;
+    currentState = GetNumGateValue("2", 1);
+    currentState = BitXor(currentState, 1);
+    SetNumGateValue("2", 1, currentState);
+End
+
+Function Void stop_conveyor_Mbot()
+    int currentState;
+    currentState = GetNumGateValue("1", 3);
+    currentState = BitXor(currentState, 1);
+    SetNumGateValue("1", 3, currentState);
+End
